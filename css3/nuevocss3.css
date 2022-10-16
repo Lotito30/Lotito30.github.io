@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+}
+
+#principal{
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+    text-align: center;
+    border:1px solid #999999;
+    background-color: #DDDDDD;
+    -moz-border-radius:20px 10px;
+    -webkit-border-radius:20px 10px ;
+    border-radius: 20px 10px ;
+}
+
+#titulo{
+    font:bold 36px verdana,sans-serif;
+}
+
