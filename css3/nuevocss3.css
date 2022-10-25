@@ -14,15 +14,22 @@ body{
     text-align: center;
     border:1px solid #999999;
     background-color: #DDDDDD;
+
     -moz-border-radius:20px 10px 30px 50px;
     -webkit-border-radius:20px 10px 30px 50px;
     border-radius: 20px 10px 30px 50px;
+
     -moz-box-shadow: rgb(150,150,150) 5px 5px;
     -webkit-box-shadow: rgb(150,150,150) 5px 5px;
     box-shadow: rgb(150,150,150) 5px 5px 10px inset;
 }
 
 #titulo{
-    font:bold 36px verdana,sans-serif;
+    font:bold 36px MiNuevaFuente, verdana,sans-serif;
+    text-shadow: rgb(0,0,150) 3px 3px 5px;
 }
 
+@font-face {
+    font-family: 'MiNuevaFuente';
+    src: url('font.ttf');
+}
