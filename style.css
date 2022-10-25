@@ -7,6 +7,7 @@ body{
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+
 }
 #agrupar{
   width: 960px;
@@ -17,16 +18,30 @@ body{
 
 #cabecera{
   align-items: center;
-  background-color: #FFFBB9;
+  background-color: #202020;
   display: inline-block;  
   width: 100%;     
 }
 #cabecera h1{
-  font: bold 36px verdana;
+  font: bold 36px HashtagTrendDemoRegular, verdana;
   font-style: italic;
-  text-align: center;
-  line-height: 90px;
+  text-indent: 15rem;
+  line-height: 70px;
+  color:#ffee00;
+} 
+
+#cabecera img{
+  width: 12%;
+  height: 10%;
+  float: left;
+  margin-left: 2rem;
 }
+
+@font-face {
+  font-family: HashtagTrendDemoRegular;
+  src: url('HashtagTrendDemoRegular.ttf');
+} 
+
 #menu{
   padding: 8px;
   background-color: lightgrey;
@@ -35,6 +50,13 @@ body{
 #menu li{
   display:inline;
   margin-left: 6em;
+}
+
+a:hover{
+  color:#ffffff;
+}
+a{
+  color:#252026;
 }
 .item1,
 .item2{
@@ -56,12 +78,6 @@ body{
   height: 150px;
 }
 
-#cabecera img{
-  width: 10%;
-  height: 10%;
-  float: left;
-}
-
 #seccion,
 #columna{
   float:left;  
@@ -71,8 +87,15 @@ body{
  width: 75%;
 }
 #columna{
-  width: 25%;
+  width: 24%;
+  background-color: #ffee00;
+  margin: 1rem auto;
 }
+#columna blockquote{
+  padding: 0.5rem;
+}
+
+
 #columna,
 #seccion{
   margin: 1em auto;

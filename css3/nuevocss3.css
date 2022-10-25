@@ -25,11 +25,12 @@ body{
 }
 
 #titulo{
-    font:bold 36px MiNuevaFuente, verdana,sans-serif;
+    font:bold 36px HashtagTrendDemoRegular, verdana,sans-serif;
     text-shadow: rgb(0,0,150) 3px 3px 5px;
 }
 
 @font-face {
-    font-family: 'MiNuevaFuente';
-    src: url('font.ttf');
+    font-family: 'HashtagTrendDemoRegular';
+    src: url('../HashtagTrendDemoRegular.ttf');
+    font-weight: 1000;
 }
