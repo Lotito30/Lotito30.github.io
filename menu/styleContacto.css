@@ -2,9 +2,12 @@
     margin: 0px;
     padding: 0px;
     font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 body{
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
   }
 #agrupar{
     width: 960px;
@@ -22,13 +25,11 @@ body{
     font: bold 36px HashtagTrendDemoRegular, verdana;
     font-style: italic;
     text-indent: 15rem;
-    line-height: 70px;
     color:#ffee00;
   } 
 
 #cabecera img{
-    width: 12%;
-    height: 10%;
+    width: 7em;
     float: left;
     margin-left: 2rem;
   }
@@ -52,52 +53,49 @@ a:hover{
 a{
     color: #000000
 }
+
 .container h1{
     text-decoration: underline;
     text-align: center;
-    margin: 0.5em 1em;
+    margin: 0.3em 0;
+    font-size: 26px;
     
 } 
 .contacto div{
-    margin: 0.5em 1em;
-    font: 16px bold verdana;
+    margin: 1.5em 1em;
+    font: bold 18px verdana,sans-serif;
+    
 } 
-#cabecera img{
-    width: 10%;
-    height: 10%;
 
-}
 #cabecerah1,
-#columna,
 .contacto,
 #cabecera img{
     float:left;  
 }
 .contacto{
     width: 50%;
+
 }
-.contacto div{
-   font-size: larger; 
-   font-size: 20px;
-}
+
 #columna{
-    width:50%;
-    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    height: 280px;
+    width: 48%;
 }
-#columna blockquote{
-    display:inline-block;
-}
-
 .contacto img{
-    width: 1.5em;
-}
+    width: 2em;
+    display: flex;
 
+}
 #columna img{   
-    width: 45px;
-    height: 35px;
-    margin: 5px;
+    height: 2.5em; 
 }
 
+.wakatime{
+    width: 3.3em;
+}
 /* footer */
 
 #pie{
