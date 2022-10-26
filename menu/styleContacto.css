@@ -4,10 +4,10 @@
     font-family:Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
-body{
-    box-sizing: border-box;
+body{  
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    box-sizing: border-box;
   }
 #agrupar{
     width: 960px;
@@ -16,8 +16,7 @@ body{
 }
 
 #cabecera{
-    align-items: center;
-    background-color: #202020;
+    background-color: #232323;
     display: inline-block;  
     width: 100%;     
   }

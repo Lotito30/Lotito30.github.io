@@ -18,22 +18,23 @@ body{
 }
 
 #cabecera{
-  align-items: center;
   background-color: #202020;
-  display: inline-block;  
-  width: 100%;     
+  display: flex;  
+  width: 100%; 
+  
 }
+
 #cabecera h1{
   font: bold 36px HashtagTrendDemoRegular, verdana;
   font-style: italic;
-  text-indent: 15rem;
   color:#ffee00;
+  
+  
 } 
-
 #cabecera img{
   width: 7em;
-  float: left;
-  margin-left: 2rem;
+  margin-right: 13em;
+  margin-left: 1em;
 }
 
 @font-face {
@@ -43,73 +44,123 @@ body{
 
 #menu{
   padding: 8px;
-  background-color: lightgrey;
+  background-color:moccasin;
   font: 18px bold verdana;
 }
 #menu li{
   display:inline;
-  margin-left: 6em;
+  margin-left: 5.8em;
 }
 
 a:hover{
-  color:#ffffff;
+  color:#000000;
 }
 a{
-  color:#252026;
+  color:#0000ff;
 }
-.item1,
-.item2{
-  float:left;
-  color: white;
-  padding: 1em;
+.container{
+  display: flex;
+  margin: 0.7em 0;
 }
-.item1{
-  background-color: red;
-  margin: 0 0.3em;
-}
-.item2{
-  margin: 0 0.3em;
-  background-color: blue;
 
-}
 .item1 img,
 .item2 img{
   width: 200px;
   height: 150px;
 }
 
-#seccion,
-#columna{
-  float:left;  
-}
-
 #seccion{
  width: 75%;
+ text-align: center;
+ display: flex;
+ justify-content: space-evenly;
 }
 #columna{
-  width: 24%;
-  background-color: #ffee00;
-  margin: 1rem auto;
+  width: 25%;
+  text-align: center;
 }
 #columna blockquote{
   padding: 0.5rem;
+  
+}
+/*inicio actividades */
+.actividades p:not(.p){
+  text-indent: 1em;
+
+}
+.actividades{
+  margin:0.5em;
+}
+/* inicio contenido Contacto menu */
+
+.containercontacto{
+  display: flex;
+ 
 }
 
-
-#columna,
-#seccion{
-  margin: 1em auto;
+.contactoh1{
+  text-decoration: underline;
   text-align: center;
+  margin: 0.5em 0;
+  font-size: 26px;
+  
+} 
+.contacto{
+  width: 70%;
 }
 
+.contacto div{
+  margin: 1.5em 1.5em;
+  font-weight: bold;
+  
+} 
+.contacto img{
+  vertical-align: middle;
+}
+
+.contacto span{
+  font-size: 18px;
+}
+#direccion{
+  margin-left: 0.4em;
+}
+.mail,
+.telefono{
+  width:3.5em;
+}
+.direccion{
+  width:2.5em;
+  margin-left: 0.4em;
+}
+#columnacontacto{
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  width: 30%;
+  margin-right: 1em;
+}
+
+#columnacontacto img:not(.wakatime){   
+  height: 2em; 
+
+}
+
+.wakatime{
+  width: 2.8em;
+  height: 2.4em;
+  vertical-align: bottom;
+}
+/* fin contenido Contacto menu */
 
 /* footer */
 
 #pie{
-  background-color: blue;
+  background-color: #000000;
   text-align: center;
   color: white;
-  clear:both;
-  font: bold 16px verdana;
+  clear:both; 
   padding: 8px;
+}
+#pie p{
+  font: bold 14px verdana,sans-serif;
 }
