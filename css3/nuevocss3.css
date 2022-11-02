@@ -4,6 +4,8 @@
 }
 body{
     text-align: center;
+    width:960px;
+    margin:15px auto;
 }
 
 #principal{
@@ -13,7 +15,7 @@ body{
     padding: 15px;
     text-align: center;
     border:1px solid #999999;
-    background-color: #DDDDDD;
+    background-color: #DDD;
 
     -moz-border-radius:20px 10px 30px 50px;
     -webkit-border-radius:20px 10px 30px 50px;
@@ -22,11 +24,49 @@ body{
     -moz-box-shadow: rgb(150,150,150) 5px 5px;
     -webkit-box-shadow: rgb(150,150,150) 5px 5px;
     box-shadow: rgb(150,150,150) 5px 5px 10px inset;
+   
+}
+.recuadro1, 
+.recuadro2,
+.recuadro3,
+.recuadro4{     
+    font-size: 20px;
+    border-radius:1em;
+    margin: 1em 1em;
+    padding:1em;
+}
+.recuadro1{
+    -moz-column-count:3;
+    -webkit-column-count:3; 
+    column-count: 3;
+    background-color: lightblue;
+}
+.recuadro2{
+    -moz-column-width:200px;
+    -webkit-column-width:200px;
+    column-width:200px;
+    background-color: lightgoldenrodyellow
+}
+.recuadro2 p{
+    margin: 0;
+    text-indent:1em;
+    text-align: justify;
+}
+.recuadro3{
+    column-count:3;
+    column-gap: 3em;
+    background-color: aqua;
+}
+.recuadro4{
+    column-count: 3;
+    column-rule: dotted 3px #f00;
+    background-color: bisque;
 }
 
 #titulo{
     font:bold 36px HashtagTrendDemoRegular, verdana,sans-serif;
     text-shadow: rgb(0,0,150) 3px 3px 5px;
+    color:rgba(217, 251, 25,0.5);
 }
 
 @font-face {
