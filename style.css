@@ -22,23 +22,23 @@ body{
   margin: 10px auto;
 }
 .imagenesfooter img{
-  width:8.5em;
-  border-radius: 1em;
+  width:9em;
+  border-radius: 1.5em;
 }
 .cabecerah1{
-  font-size: 3em;
+  font-size: 4em;
   background: url("imagenes_hbdy/fondoh1header.jfif"); 
   font-style: italic;
   color:gold;
   margin-bottom: 0.5em;
 }
 .fotosh1{
-  font: 30px solid verdana,sans-serif;
+  font: 3em solid verdana,sans-serif;
 }
 .foto img{
-  width: 200px;
-  height: 200px; 
-  border-radius: 1em;
+  width: 220px;
+  height: 220px; 
+  border-radius: 1.5em;
   margin: 1em;
 }
 .container{
@@ -47,15 +47,9 @@ body{
   flex-wrap: wrap;
   justify-content: center;
 }
-figcaption{
-  font-weight: bold;
-  text-align: left;
-  margin-left: 1em;
-}
 .parrafo{
   width:960px;
   margin:1em;
-  text-align: left;  
 }
 .parrafo p,
 .fotosh1,
@@ -66,13 +60,10 @@ figcaption{
 }
 
 .tqm{
-  font: 10em solid verdana, sans-serif;
+  font: 8em solid verdana, sans-serif;
 }
 .parrafo p,
 .fotosh1,
 .mensajefooter{
   font: 1.5em solid verdana,sans-serif;
-}
-.corazonderosas img{
-  background-color: red;
 }
