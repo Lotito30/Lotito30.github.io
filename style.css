@@ -1,78 +1,77 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 22px;
   text-align: center;
 }
-body{
+body {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
- 
 }
-.agrupar{
+.agrupar {
   width: 960px;
   margin: 10px auto;
-  background: url("imagenes_hbdy/fondoh1header.jfif"); 
-  
+  background: url("imagenes_hbdy/fondoh1header.jfif");
 }
-.imagenesfooter{
-  width: 960px;
-  margin: 10px auto;
-}
-.imagenesfooter img{
-  width:8.5em;
-  border-radius: 1em;
-}
-.cabecerah1{
-  font-size: 3em;
-  background: url("imagenes_hbdy/fondoh1header.jfif"); 
+
+.cabecerah1 {
+  font-size: 4em;
   font-style: italic;
-  color:gold;
-  margin-bottom: 0.5em;
+  color: gold;
+  margin-bottom: 0.1em;
 }
-.fotosh1{
-  font: 30px solid verdana,sans-serif;
+.reina {
+  display: block;
+  font-size: 0.8em;
 }
-.foto img{
-  width: 200px;
-  height: 200px; 
+.container {
   border-radius: 1em;
-  margin: 1em;
-}
-.container{
-  border-radius: 1em;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-figcaption{
-  font-weight: bold;
-  text-align: left;
-  margin-left: 1em;
+.foto img {
+  width: 220px;
+  height: 220px;
+  border-radius: 1.5em;
+  margin: 1em;
 }
-.parrafo{
-  width:960px;
-  margin:1em;
-  text-align: left;  
-}
-.parrafo p,
-.fotosh1,
-.footer,
-.mensajefooter{
+.parrafo {
+  width: 960px;
   text-transform: uppercase;
-  color:gold;
+  color: gold;
+  font: 0.6em solid verdana, sans-serif;
+}
+.h1fotos,
+.footer,
+.mensajefooter,
+.tqm {
+  text-transform: uppercase;
+  color: gold;
+  font: 1.5em solid verdana, sans-serif;
+  -moz-font: 1.5em solid verdana, sans-serif;
+  -webkit-font: 1.5em solid verdana, sans-serif;
+}
+.imagenesfooter {
+  width: 970px;
+  margin: 0 auto;
+  -moz-width: 970px;
+  -webkit-width: 970px;
+}
+.imagenesfooter img {
+  width: 8em;
+  -moz-width: 8em;
+  -webkit-width: 8em;
+  border-radius: 2em;
+  -moz-border-radius: 2em;
+  -webkit-border-radius: 2em;
+}
+.video {
+  position: absolute;
 }
 
-.tqm{
-  font: 10em solid verdana, sans-serif;
-}
-.parrafo p,
-.fotosh1,
-.mensajefooter{
-  font: 1.5em solid verdana,sans-serif;
-}
-.corazonderosas img{
-  background-color: red;
+.footer p {
+  padding-bottom: 0.5em;
 }
