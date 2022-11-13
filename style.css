@@ -18,11 +18,11 @@ body{
   
 }
 .imagenesfooter{
-  width: 960px;
-  margin: 10px auto;
+  width: 970px;
+  margin: 0 auto;
 }
 .imagenesfooter img{
-  width:9em;
+  width:8.5em;
   border-radius: 1.5em;
 }
 .cabecerah1{
