@@ -2,165 +2,77 @@
   margin: 0px;
   padding: 0px;
   font-family:Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 22px;
+  text-align: center;
 }
 body{
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-
-}
-#agrupar{
-  width: 960px;
-  border: 1px solid black;
-  margin: 10px auto;
-  
-}
-
-#cabecera{
-  background-color: #202020;
-  display: flex;  
-  width: 100%; 
-  
-}
-
-#cabecera h1{
-  font: bold 36px HashtagTrendDemoRegular, verdana;
-  font-style: italic;
-  color:#ffee00;
-  
-  
-} 
-#cabecera img{
-  width: 7em;
-  margin-right: 13em;
-  margin-left: 1em;
-}
-
-@font-face {
-  font-family: HashtagTrendDemoRegular;
-  src: url('HashtagTrendDemoRegular.ttf');
-} 
-
-#menu{
-  padding: 8px;
-  background-color:moccasin;
-  font: 18px bold verdana;
-}
-#menu li{
-  display:inline;
-  margin-left: 5.8em;
-}
-
-a:hover{
-  color:#000000;
-}
-a{
-  color:#0000ff;
-}
-.container{
-  display: flex;
-  margin: 0.7em 0;
-}
-
-.item1 img,
-.item2 img{
-  width: 200px;
-  height: 150px;
-}
-
-#seccion{
- width: 75%;
- text-align: center;
- display: flex;
- justify-content: space-evenly;
-}
-#columna{
-  width: 25%;
-  text-align: center;
-}
-#columna blockquote{
-  padding: 0.5rem;
-  
-}
-/*inicio actividades */
-.actividades p:not(.p){
-  text-indent: 1em;
-
-}
-.actividades{
-  margin:0.5em;
-}
-/* inicio contenido Contacto menu */
-
-.containercontacto{
-  display: flex;
  
 }
-
-.contactoh1{
-  text-decoration: underline;
-  text-align: center;
-  margin: 0.5em 0;
-  font-size: 26px;
+.agrupar{
+  width: 960px;
+  margin: 10px auto;
+  background: url("imagenes_hbdy/fondoh1header.jfif"); 
   
-} 
-.contacto{
-  width: 70%;
 }
-
-.contacto div{
-  margin: 1.5em 1.5em;
+.imagenesfooter{
+  width: 960px;
+  margin: 10px auto;
+}
+.imagenesfooter img{
+  width:8.5em;
+  border-radius: 1em;
+}
+.cabecerah1{
+  font-size: 3em;
+  background: url("imagenes_hbdy/fondoh1header.jfif"); 
+  font-style: italic;
+  color:gold;
+  margin-bottom: 0.5em;
+}
+.fotosh1{
+  font: 30px solid verdana,sans-serif;
+}
+.foto img{
+  width: 200px;
+  height: 200px; 
+  border-radius: 1em;
+  margin: 1em;
+}
+.container{
+  border-radius: 1em;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+figcaption{
   font-weight: bold;
-  
-} 
-.contacto img{
-  vertical-align: middle;
+  text-align: left;
+  margin-left: 1em;
+}
+.parrafo{
+  width:960px;
+  margin:1em;
+  text-align: left;  
+}
+.parrafo p,
+.fotosh1,
+.footer,
+.mensajefooter{
+  text-transform: uppercase;
+  color:gold;
 }
 
-.contacto span{
-  font-size: 18px;
+.tqm{
+  font: 10em solid verdana, sans-serif;
 }
-#direccion{
-  margin-left: 0.4em;
+.parrafo p,
+.fotosh1,
+.mensajefooter{
+  font: 1.5em solid verdana,sans-serif;
 }
-.mail,
-.telefono{
-  width:3.5em;
-}
-.direccion{
-  width:2.5em;
-  margin-left: 0.4em;
-}
-#columnacontacto{
-  display: flex;
-  justify-content: end;
-  align-items: flex-end;
-  width: 30%;
-  margin-right: 1em;
-}
-
-#columnacontacto img:not(.wakatime){   
-  height: 2em; 
-
-}
-
-.wakatime{
-  width: 2.8em;
-  height: 2.4em;
-  vertical-align: bottom;
-}
-/* fin contenido Contacto menu */
-
-/* footer */
-
-#pie{
-  background-color: #000000;
-  text-align: center;
-  color: white;
-  clear:both; 
-  padding: 8px;
-}
-#pie p{
-  font: bold 14px verdana,sans-serif;
+.corazonderosas img{
+  background-color: red;
 }
