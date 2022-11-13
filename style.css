@@ -16,37 +16,32 @@ body {
   background: url("imagenes_hbdy/fondoh1header.jfif");
 }
 
-.cabecerah1 {
+.cabecerah1{
   font-size: 4em;
   font-style: italic;
   color: gold;
   margin-bottom: 0.1em;
 }
-.reina {
-  display: block;
-  font-size: 0.8em;
+.reina{
+  display:block;
+  font-size: 0.5em;
 }
-.container {
-  border-radius: 1em;
-  display: flex;
+.h1fotos{
+  margin: 0.5em 0;
+}
+.foto img{
+  width: 220px;
+  height: 220px; 
+  border-radius: 1.5em;
+  margin: 0.5em 1em;
+}
+.container{
+  display:flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.foto img {
-  width: 220px;
-  height: 220px;
-  border-radius: 1.5em;
-  margin: 1em;
-}
-.parrafo {
-  width: 960px;
-  text-transform: uppercase;
-  color: gold;
-  font: 0.6em solid verdana, sans-serif;
-}
 .h1fotos,
 .footer,
-.mensajefooter,
 .tqm {
   text-transform: uppercase;
   color: gold;
@@ -54,24 +49,31 @@ body {
   -moz-font: 1.5em solid verdana, sans-serif;
   -webkit-font: 1.5em solid verdana, sans-serif;
 }
+.mensajefooter{
+  margin: 0.5em 0;
+  font: 1em solid verdana, sans-serif;
+}
 .imagenesfooter {
   width: 970px;
   margin: 0 auto;
   -moz-width: 970px;
   -webkit-width: 970px;
 }
-.imagenesfooter img {
-  width: 8em;
-  -moz-width: 8em;
-  -webkit-width: 8em;
-  border-radius: 2em;
-  -moz-border-radius: 2em;
-  -webkit-border-radius: 2em;
-}
 .video {
   position: absolute;
 }
-
-.footer p {
+.parrafo{
+  width:960px;
+  text-align: center;
+  font: 0.6em solid verdana, sans-serif; 
+}
+.imagenesfooter img{
+  width:8.5em;
+  border-radius: 2em;
+}
+.tqm{
   padding-bottom: 0.5em;
+}
+.footer{
+  margin-top:0.5em;
 }
