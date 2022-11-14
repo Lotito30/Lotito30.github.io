@@ -96,6 +96,34 @@ body{
     height: 200px;
     margin-top: 2em;
 }
+
+.recuadro8{
+    width:200px;
+    height: 200px;
+    border-radius:1em;
+    background-color:#000;
+    transition: width 1s;
+    text-align: center;
+    color:white;
+}
+.recuadro8:hover{
+    width:400px;
+    background-color: #f00;
+}
+
+.recuadro9{
+    width:200px;
+    height: 200px;
+    border-radius:1em;
+    background-color:#0f0;
+    transition: width 2s,
+        background-color 2s;
+    text-align: center;
+}
+.recuadro9:hover{
+    width:700px;
+    background-color: #0ff;
+}
 #titulo{
     font:bold 36px HashtagTrendDemoRegular, verdana,sans-serif;
     text-shadow: rgb(0,0,150) 3px 3px 5px;
