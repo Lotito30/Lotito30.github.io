@@ -4,6 +4,7 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 22px;
   text-align: center;
+  
 }
 body {
   box-sizing: border-box;
@@ -16,11 +17,14 @@ body {
   background: url("imagenes_hbdy/fondoh1header.jfif");
 }
 
-.cabecerah1 {
+.cabecerah1{
   font-size: 4em;
   font-style: italic;
   color: gold;
   margin-bottom: 0.1em;
+  text-shadow: rgb(0,0,0) 10px 10px 10px;
+  -moz-text-shadow: rgb(0,0,0) 10px 10px 10px;
+  -webkit-text-shadow: rgb(0,0,0) 10px 10px 10px;
 }
 .reina {
   display: block;
@@ -34,6 +38,9 @@ body {
   height: 220px;
   border-radius: 1.5em;
   margin: 0.5em 1.5em;
+  box-shadow:rgb(0,0,0) 10px 11px 10px;
+  -moz-box-shadow:rgb(0,0,0) 10px 11px 10px;
+  -webkit-box-shadow:rgb(0,0,0) 10px 11px 10px;
 }
 .container {
   display: flex;
@@ -61,12 +68,13 @@ body {
   margin: 0 auto;
   -moz-width: 970px;
   -webkit-width: 970px;
+  
 }
 .video {
   position: absolute;
-  top:105px;
-  
-  
+  top:95px;
+  left:21em;
+  box-shadow:rgb(0,0,0) 10px 10px 10px
 }
 .parrafo {
   width: 960px;
@@ -79,6 +87,11 @@ body {
   -webkit-width:8.5em;
   -moz-border-radius: 2em;
   -webkit-border-radius: 2em;
+  margin-bottom:1em ;
+  
+}
+.tulipan{
+  box-shadow:rgb(0,0,0) 6px 6px 6px
 }
 .tqm {
   padding-bottom: 0.5em;
@@ -88,4 +101,13 @@ body {
 }
 .mensajefooter {
   margin: 0.5em 0;
+}
+
+.tqm,
+.mensajefooter,
+.parrafo,
+.h1fotos{
+  text-shadow:rgb(0,0,0) 10px 10px 10px;
+  -moz-text-shadow:rgb(0,0,0) 10px 10px 10px;
+  -webkit-text-shadow:rgb(0,0,0) 10px 10px 10px
 }
