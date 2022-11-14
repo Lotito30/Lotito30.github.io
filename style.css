@@ -16,27 +16,27 @@ body {
   background: url("imagenes_hbdy/fondoh1header.jfif");
 }
 
-.cabecerah1{
+.cabecerah1 {
   font-size: 4em;
   font-style: italic;
   color: gold;
   margin-bottom: 0.1em;
 }
-.reina{
-  display:block;
+.reina {
+  display: block;
   font-size: 0.5em;
 }
-.h1fotos{
+.h1fotos {
   margin: 0.5em 0;
 }
-.foto img{
+.foto img {
   width: 220px;
-  height: 220px; 
+  height: 220px;
   border-radius: 1.5em;
   margin: 0.5em 1em;
 }
-.container{
-  display:flex;
+.container {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -49,7 +49,7 @@ body {
   -moz-font: 1.5em solid verdana, sans-serif;
   -webkit-font: 1.5em solid verdana, sans-serif;
 }
-.mensajefooter{
+.mensajefooter {
   margin: 0.5em 0;
   font: 1em solid verdana, sans-serif;
 }
@@ -62,18 +62,18 @@ body {
 .video {
   position: absolute;
 }
-.parrafo{
-  width:960px;
+.parrafo {
+  width: 960px;
   text-align: center;
-  font: 0.6em solid verdana, sans-serif; 
+  font: 0.6em solid verdana, sans-serif;
 }
-.imagenesfooter img{
-  width:8.5em;
+.imagenesfooter img {
+  width: 8.5em;
   border-radius: 2em;
 }
-.tqm{
+.tqm {
   padding-bottom: 0.5em;
 }
-.footer{
-  margin-top:0.5em;
+.footer {
+  margin-top: 0.5em;
 }
