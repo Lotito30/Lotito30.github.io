@@ -72,9 +72,9 @@ body {
 }
 .video {
   position: absolute;
-  top:95px;
-  left:21em;
-  box-shadow:rgb(0,0,0) 10px 10px 10px
+  top:97px;
+  box-shadow:rgb(0,0,0) 10px 10px 10px;
+  margin-left:0.5em;
 }
 .parrafo {
   width: 960px;
