@@ -8,6 +8,7 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    zoom: normal;
   
   }
   #agrupar{
@@ -28,8 +29,7 @@
     font: bold 36px HashtagTrendDemoRegular, verdana;
     font-style: italic;
     color:#ffee00;
-    
-    
+     
   } 
   #cabecera img{
     width: 7em;
@@ -38,6 +38,7 @@
   }
   
   @font-face {
+    font-display: swap;
     font-family: HashtagTrendDemoRegular;
     src: url('HashtagTrendDemoRegular.ttf');
   } 
