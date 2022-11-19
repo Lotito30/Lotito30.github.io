@@ -8,11 +8,9 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    zoom: normal;
   
   }
-  #agrupar{
-    width: 960px;
+  #agrupar{    width: 960px;
     border: 1px solid black;
     margin: 10px auto;
     
