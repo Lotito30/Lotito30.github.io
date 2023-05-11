@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Slab:wght@200;700;800 & display=swap');
+
+:root{
+    --fuente:font-family: 'Roboto Slab', serif;
+}
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+} */
+
+/*FOOTER*/
+.footer{
+    background: black;
+    text-align: center; 
+    padding:2% 0;
+  }
+  
+  .footer h3{
+    color: #ffffff;
+    font-size: 1.5vw;
+  }
+  
+  .footer p{
+    color: #ffffff;
+    font-size: 1vw;
+  }
+  
+  .footer a{
+    text-decoration: none;
+  }
+  
+  .icon-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fa-brands{
+    font-size: 2vw; 
+    margin: 1vw;
+    background: #fff;
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+  }
+  
+  .fa-instagram{
+    background: linear-gradient(to top right, #fcde30, #e9712a, #d2313b, #ae4198, #7540a1, #5443a8);
+    color: #ffffff;
+  }
+  
+  .fa-instagram:hover{
+    color: black;
+  }
+  
+  .fa-facebook{
+    color: #1E4595;
+  }
+  
+  .fa-facebook:hover{
+    background: #1E4595;
+    color: #ffffff;
+  }
+  
+  .fa-twitter:hover,
+  .fa-github:hover{
+    background: linear-gradient(to right top, #42a9ec, #358de6);
+    color: #ffffff;
+  }
+  
+  .fa-twitter{
+    color: #358de6;
+    background-color: #ffffff;
+  }
